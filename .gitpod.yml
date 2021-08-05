@@ -1,0 +1,4 @@
+tasks:
+  - name: Install, start node, and deploy
+    init: cd graph-frontend && yarn
+    command: npm run dev

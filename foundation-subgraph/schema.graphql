@@ -1,0 +1,28 @@
+type Token @entity {
+  id: ID!
+  tokenID: BigInt!
+  contentURI: String
+  tokenIPFSPath: String
+  name: String!
+  createdAtTimestamp: BigInt!
+  creator: User!
+  owner: User!
+}
+
+type User @entity {
+  id: ID!
+  tokens: [Token!]! @derivedFrom(field: "owner")
+  created: [Token!]! @derivedFrom(field: "creator")
+  auctions: [NFTMarketAuction!]! @derivedFrom(field: "seller")
+}
+
+type NFTMarketAuction @entity {
+	id: ID!
+	seller: User!
+  token: Token!
+  duration: BigInt!
+  reservePrice: BigInt!
+  extensionDuration: BigInt!
+  auctionId: BigInt!
+  createdAtTimestamp: BigInt!
+}

@@ -49,13 +49,12 @@ async function fetchData() {
 }
 
 export default function Home(props) {
-  console.log('props: ', props)
   if (props && props.tokens && props.tokens.length) return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 px-10 py-10">
       {
         props.tokens.map(token => {
           return (
-            <div className="shadow-lg bg-transparent rounded-2xl overflow-hidden">
+            <div className="shadow-lg bg-transparent rounded-2xl overflow-hidden" key={token.id}>
               <div key={token.contentURI}
                 className="w-100% h-100%"
               >

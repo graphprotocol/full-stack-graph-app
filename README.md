@@ -1,4 +1,4 @@
-## Full Stack NFTs with The Graph and Foundation
+## Query NFT data with a Subgraph in your Browser
 
 This is an example app to show you how to [query data from a Subgraph](https://thegraph.com/docs/developer/query-the-graph#querying-from-your-app) from a client-side application.
 

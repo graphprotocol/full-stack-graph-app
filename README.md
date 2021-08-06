@@ -8,7 +8,7 @@ The project includes a front-end application built with Next.js that queries NFT
 
 ### 1. Automate with Gitpod in Browser 
 
-You can deploy this project with Gitpod by clicking here:
+You can auto-deploy this project with Gitpod in your browser by clicking here:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/graphprotocol/full-stack-graph-app)
 

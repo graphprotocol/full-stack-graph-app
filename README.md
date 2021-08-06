@@ -6,13 +6,13 @@ The project includes a front-end application built with Next.js that queries NFT
 
 ## Deployment options
 
-### Automated with Gitpod
+### 1. Automate with Gitpod in Browser 
 
 You can deploy this project with Gitpod by clicking here:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/graphprotocol/full-stack-graph-app)
 
-### Local deployment
+### 2. Local Deployment on your Machine 
 
 To deploy locally, follow these steps:
 
@@ -40,9 +40,9 @@ npm run dev
 
 If you have an endpoint that you'd like to use, update __.env.local__ with your subgraph endpoint.
 
-### Deploying your own subgraph
+### 3. Deploying your own Subgraph 
 
-1. Change into the __foundation-subgraph__ directory and install the dependencie:
+1. Change into the __foundation-subgraph__ directory and install the dependency:
 
 ```sh
 cd foundation-subgraph

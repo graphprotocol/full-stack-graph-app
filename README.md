@@ -12,6 +12,10 @@ You can deploy this project with Gitpod by clicking here:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/graphprotocol/full-stack-graph-app)
 
+Once the setup is complete, the app will be started and you should be able to open it and view it:
+
+![Test launched project](portopen.png)
+
 ### 2. Local Deployment on your Machine 
 
 To deploy locally, follow these steps:
